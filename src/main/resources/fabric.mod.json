@@ -18,9 +18,6 @@
 		"main": [
 			"com.duckxy.multitoolmod.MultiTool"
 		],
-		"fabric-datagen": [
-			"com.duckxy.multitoolmod.MultiToolDataGenerator"
-		],
 		"client": [
 			"com.duckxy.multitoolmod.MultiToolModClient"
 		]
@@ -29,8 +26,8 @@
 		"multitool.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.18.4",
-		"minecraft": "~1.21.11",
+		"fabricloader": ">=0.16.5",
+		"minecraft": "*",
 		"java": ">=21",
 		"fabric-api": "*"
 	}

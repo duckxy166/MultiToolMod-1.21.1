@@ -28,9 +28,7 @@ public class MultiTool implements ModInitializer {
 	// ========== WOODEN MULTI-TOOL ==========
 	public static final RegistryKey<Item> WOODEN_MULTI_TOOL_KEY = RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MOD_ID, "wooden_multi_tool"));
 	public static final Item WOODEN_MULTI_TOOL = new MultiToolItem(new Item.Settings()
-			.registryKey(WOODEN_MULTI_TOOL_KEY)
 			.maxDamage(59)
-			.component(DataComponentTypes.ENCHANTABLE, new net.minecraft.component.type.EnchantableComponent(15))
 			.attributeModifiers(createAttributes(4.0, -2.4)),
 			2.0F, 0 // miningSpeed, miningLevel (wood)
 	);
@@ -38,9 +36,7 @@ public class MultiTool implements ModInitializer {
 	// ========== STONE MULTI-TOOL ==========
 	public static final RegistryKey<Item> STONE_MULTI_TOOL_KEY = RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MOD_ID, "stone_multi_tool"));
 	public static final Item STONE_MULTI_TOOL = new MultiToolItem(new Item.Settings()
-			.registryKey(STONE_MULTI_TOOL_KEY)
 			.maxDamage(131)
-			.component(DataComponentTypes.ENCHANTABLE, new net.minecraft.component.type.EnchantableComponent(5))
 			.attributeModifiers(createAttributes(5.0, -2.4)),
 			4.0F, 1 // miningSpeed, miningLevel (stone)
 	);
@@ -48,9 +44,7 @@ public class MultiTool implements ModInitializer {
 	// ========== IRON MULTI-TOOL ==========
 	public static final RegistryKey<Item> IRON_MULTI_TOOL_KEY = RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MOD_ID, "iron_multi_tool"));
 	public static final Item IRON_MULTI_TOOL = new MultiToolItem(new Item.Settings()
-			.registryKey(IRON_MULTI_TOOL_KEY)
 			.maxDamage(250)
-			.component(DataComponentTypes.ENCHANTABLE, new net.minecraft.component.type.EnchantableComponent(14))
 			.attributeModifiers(createAttributes(6.0, -2.4)),
 			6.0F, 2 // miningSpeed, miningLevel (iron)
 	);
@@ -58,9 +52,7 @@ public class MultiTool implements ModInitializer {
 	// ========== GOLDEN MULTI-TOOL ==========
 	public static final RegistryKey<Item> GOLDEN_MULTI_TOOL_KEY = RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MOD_ID, "golden_multi_tool"));
 	public static final Item GOLDEN_MULTI_TOOL = new MultiToolItem(new Item.Settings()
-			.registryKey(GOLDEN_MULTI_TOOL_KEY)
 			.maxDamage(32)
-			.component(DataComponentTypes.ENCHANTABLE, new net.minecraft.component.type.EnchantableComponent(22))
 			.attributeModifiers(createAttributes(4.0, -2.4)),
 			12.0F, 0 // miningSpeed, miningLevel (gold = wood level but fast)
 	);
@@ -68,9 +60,7 @@ public class MultiTool implements ModInitializer {
 	// ========== DIAMOND MULTI-TOOL ==========
 	public static final RegistryKey<Item> DIAMOND_MULTI_TOOL_KEY = RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MOD_ID, "diamond_multi_tool"));
 	public static final Item DIAMOND_MULTI_TOOL = new MultiToolItem(new Item.Settings()
-			.registryKey(DIAMOND_MULTI_TOOL_KEY)
 			.maxDamage(1561)
-			.component(DataComponentTypes.ENCHANTABLE, new net.minecraft.component.type.EnchantableComponent(10))
 			.attributeModifiers(createAttributes(7.0, -2.4)),
 			8.0F, 3 // miningSpeed, miningLevel (diamond)
 	);
@@ -78,10 +68,8 @@ public class MultiTool implements ModInitializer {
 	// ========== NETHERITE MULTI-TOOL ==========
 	public static final RegistryKey<Item> NETHERITE_MULTI_TOOL_KEY = RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MOD_ID, "netherite_multi_tool"));
 	public static final Item NETHERITE_MULTI_TOOL = new MultiToolItem(new Item.Settings()
-			.registryKey(NETHERITE_MULTI_TOOL_KEY)
 			.maxDamage(2031)
 			.fireproof() // Fire resistant!
-			.component(DataComponentTypes.ENCHANTABLE, new net.minecraft.component.type.EnchantableComponent(15))
 			.attributeModifiers(createAttributes(8.0, -2.4)),
 			9.0F, 4 // miningSpeed, miningLevel (netherite)
 	);
@@ -92,10 +80,10 @@ public class MultiTool implements ModInitializer {
 
 	private static AttributeModifiersComponent createAttributes(double attackDamage, double attackSpeed) {
 		return AttributeModifiersComponent.builder()
-				.add(EntityAttributes.ATTACK_DAMAGE,
+				.add(EntityAttributes.GENERIC_ATTACK_DAMAGE,
 						new EntityAttributeModifier(ATTACK_DAMAGE_MODIFIER_ID, attackDamage, EntityAttributeModifier.Operation.ADD_VALUE),
 						AttributeModifierSlot.MAINHAND)
-				.add(EntityAttributes.ATTACK_SPEED,
+				.add(EntityAttributes.GENERIC_ATTACK_SPEED,
 						new EntityAttributeModifier(ATTACK_SPEED_MODIFIER_ID, attackSpeed, EntityAttributeModifier.Operation.ADD_VALUE),
 						AttributeModifierSlot.MAINHAND)
 				.build();

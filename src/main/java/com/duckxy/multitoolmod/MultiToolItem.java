@@ -202,7 +202,7 @@ public class MultiToolItem extends BowItem {
             if (shearable.isShearable()) {
                 World world = entity.getEntityWorld();
                 if (user instanceof ServerPlayerEntity serverPlayer && world instanceof ServerWorld serverWorld) {
-                    shearable.sheared(serverWorld, SoundCategory.PLAYERS, stack);
+                    shearable.sheared(SoundCategory.PLAYERS);
                     stack.damage(1, serverWorld, serverPlayer, (item) -> {});
                     user.emitGameEvent(GameEvent.SHEAR, entity);
                 }

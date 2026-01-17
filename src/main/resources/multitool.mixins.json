@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "com.duckxy.multitoolmod.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin",
+		"SmithingTableMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
