@@ -215,4 +215,8 @@ public class MultiToolItem extends BowItem {
             stack.damage(1, serverWorld, serverPlayer, (item) -> {});
         }
     }
+
+    public int getEnchantability() {
+        return 50;
+    }
 }

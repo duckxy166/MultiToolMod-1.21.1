@@ -1,4 +1,4 @@
-# Multi-Tool Mod for Minecraft 1.21.1
+# Multi-Tool Mod for Minecraft 1.21.11
 
 [![Minecraft](https://img.shields.io/badge/Minecraft-1.21.11-green.svg)](https://minecraft.net)
 [![Fabric](https://img.shields.io/badge/Mod%20Loader-Fabric-blue.svg)](https://fabricmc.net)
