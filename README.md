@@ -1,6 +1,6 @@
 # ⚒️ Multi-Tool Mod for Minecraft 1.21.1
 
-![Banner](https://img.shields.io/badge/Minecraft-1.21.1-green.svg?style=for-the-badge&logo=minecraft) ![Fabric](https://img.shields.io/badge/Loader-Fabric-blue.svg?style=for-the-badge&logo=fabric) ![Version](https://img.shields.io/badge/Version-1.0.0-orange.svg?style=for-the-badge)
+![Banner](https://img.shields.io/badge/Minecraft-1.21.1-green.svg?style=for-the-badge&logo=minecraft) ![Fabric](https://img.shields.io/badge/Loader-Fabric-blue.svg?style=for-the-badge&logo=fabric) ![Version](https://img.shields.io/badge/Version-1.0.1-orange.svg?style=for-the-badge)
 
 Combine the power of **7 tools in 1**! The Multi-Tool is the ultimate utility item for your Minecraft adventures, combining a Pickaxe, Axe, Shovel, Hoe, Shears, Bow, and Flint & Steel into a single powerful item.
 
