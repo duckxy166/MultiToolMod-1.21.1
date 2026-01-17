@@ -28,7 +28,7 @@ The Multi-Tool currently supports the following functionalities:
 - **Mining Level**: Diamond level (can mine obsidian)
 
 ### Known Limitations
-
+- Enchant able
 - ❌ **Crafting Recipe**: Not available yet - /give @s multitool:multi_tool
 
 ---
@@ -56,7 +56,7 @@ Multi-Tool รองรับความสามารถต่อไปนี
 - **ระดับการขุด**: ระดับเพชร (ขุดออบซิเดียนได้)
 
 ### ข้อจำกัดที่ทราบ
-
+- อุปกรณ์ multiTool สามารถ Enchant ได้
 - ❌ **สูตรคราฟต์**: ยังไม่มี - /give @s multitool:multi_tool
 
 ---
