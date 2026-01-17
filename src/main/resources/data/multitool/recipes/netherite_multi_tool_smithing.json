@@ -4,7 +4,7 @@
         "item": "minecraft:netherite_upgrade_smithing_template"
     },
     "base": {
-        "item": "multitool:diamond_multi_tool"
+        "tag": "multitool:upgradeable_to_netherite"
     },
     "addition": {
         "item": "minecraft:netherite_ingot"
