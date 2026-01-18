@@ -1,10 +1,10 @@
 {
 	"textures": {
 		"0": "multitool:item/string",
-		"1": "multitool:item/stone_multi_tool/teeth",
-		"2": "multitool:item/stone_multi_tool/blade",
-		"3": "multitool:item/stone_multi_tool/base",
-		"4": "multitool:item/stone_multi_tool/top",
+		"1": "multitool:item/golden_multi_tool/teeth",
+		"2": "multitool:item/golden_multi_tool/blade",
+		"3": "multitool:item/golden_multi_tool/base",
+		"4": "multitool:item/golden_multi_tool/top",
 		"particle": "multitool:item/string"
 	},
 	"elements": [

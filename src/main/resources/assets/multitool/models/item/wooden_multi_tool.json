@@ -1,11 +1,11 @@
 {
 	"textures": {
-		"0": "multitool:item/wooden_multi_tool/string",
+		"0": "multitool:item/string",
 		"1": "multitool:item/wooden_multi_tool/teeth",
 		"2": "multitool:item/wooden_multi_tool/blade",
 		"3": "multitool:item/wooden_multi_tool/base",
 		"4": "multitool:item/wooden_multi_tool/top",
-		"particle": "multitool:item/wooden_multi_tool/string"
+		"particle": "multitool:item/string"
 	},
 	"elements": [
 		{
